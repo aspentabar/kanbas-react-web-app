@@ -1,0 +1,283 @@
+<html>
+<title>Grades Screen</title>
+
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <!-- kanbas navigaiton -->
+                <ul>
+                    <title>Kanbas Navigation</title>
+        
+                    <li><a href="/Kanbas/Account/Profile/screen.html">
+                       Account</a></li>
+                    <li>
+        
+                     <a href="#">
+                        Dashboard</a>
+                    </li>
+                    
+                    <li>
+                     <a href="/Kanbas/Courses/Home/Screen/screen.html">
+                        Courses</a>
+                    </li>
+        
+                    <li>
+                     <a href="#">
+                        Calendar</a>
+                    </li>
+        
+                    <li><a href="#">
+                        Inbox</a>
+                    </li>
+        
+                    <li><a href="#">
+                        History</a>
+                    </li>
+        
+                    <li><a href="#">
+                        Studio</a>
+                    </li>
+        
+                    <li><a href="#">
+                        Commons</a>
+                    </li>
+        
+                    <li><a href="#">
+                        Help</a>
+                    </li>
+                   </ul> 
+            </td>
+
+            <td>
+                <!-- course navigation -->
+                <ul>
+                    <li>
+                      <a href="/Kanbas/Courses/Home/Screen/screen.html">
+                        Home</a></li>
+            
+                    <li><a href="#">
+                        Modules</a></li>
+            
+                    <li><a href="#">
+                        Piazza</a></li>
+            
+                    <li><a href="#">
+                        Zoom Meetings</a></li>
+            
+                    <li><a href="/Kanbas/Courses/Assignments/screen.html">
+                        Assignments</a></li>
+            
+                    <li><a href="#">
+                        Quizzes</a></li>
+            
+                    <li><a href="/Kanbas/Courses/Grades/screen.html">
+                        Grades</a></li>
+            
+                    <li><a href="#">
+                         People</a></li>
+            
+                    <li><a href="#">
+                        Panopto Video</a></li>
+            
+                    <li><a href="#">
+                        Discussions</a></li>
+            
+                    <li><a href="#">
+                        Announcements</a></li>
+            
+                    <li><a href="#">
+                        Pages</a></li>
+            
+                    <li><a href="#">
+                        Files</a></li>
+            
+                    <li><a href="#">
+                        Rubrics</a></li>
+            
+                    <li><a href="#">
+                        Outcomes</a></li>
+            
+                    <li><a href="#">
+                        Collaborations</a></li>
+            
+                    <li><a href="#">
+                        Syllabus</a></li>
+            
+                    <li><a href="#">
+                        Settings</a></li>
+            
+                  </ul>
+
+            </td>
+
+            <td>
+                <!-- grades -->
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <select> 
+                                            <option>Gradebook</option>
+                                            <option>Grades by Month</option>
+                                            <option>Grades by Week</option>
+                                        </select>
+                                        <button>Import</button>
+                                        <select> 
+                                            <option>Export</option>
+                                            <option>Export Current Gradebook</option>
+                                            <option>Export Current</option>
+                                        </select>
+                                        <button>Configure</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br/>
+                
+                <!-- Search names and assignments -->
+                <label>Student Names</label>
+                <br/><br/>
+                <input placeholder="Search Students">
+                <br/><br/>
+                <label>Assignment Names</label>
+                <br/><br/>
+                <input placeholder="Search Assignments">
+                <br/><br/>
+                <button>Apply Filters</button>
+                <br/><br/>
+                
+                
+                <!-- Chart of Students and Grades -->
+                <table border="1" width="100%"> 
+                    <thead>
+                        <tr>
+                            <th>Student Names</th>
+                            <th> A1 SETUP<br/> out of 100</th>
+                            <th> A2 HTML<br/> out of 100</th>
+                            <th> A3 CSS<br/> out of 100</th>
+                            <th> A4 BOOTSTRAP<br/> out of 100</th>
+                            <th> A5 JAVASCRIPT<br/> out of 100</th>
+                            <th> A6 REACT<br/> out of 100</th>
+                            <th> A7 REDUX<br/> out of 100</th>
+                            <th> A8 NODE<br/> out of 100</th>
+                            <th> A9 MONGO<br/> out of 100</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                
+                        <tr>
+                            <td>Alice Wonderland</td>
+                            <td><input type="number" value="number" placeholder="100"></td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                        </tr>
+                
+                        <tr>
+                            <td>Aspen Tabar</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                        </tr>
+                
+                        <tr>
+                            <td>Billy Bob</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>60</td>
+                            <td>100</td>
+                            <td>40</td>
+                            <td>10</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>100</td>
+                        </tr>
+                
+                        <tr>
+                            <td>Patrick Star</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td><input type="number" value="number" placeholder="100"></td>
+                            <td>10</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>70</td>
+                            <td>80</td>
+                            <td>10</td>
+                        </tr>
+                
+                        <tr>
+                            <td>Sandy Cheeks</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>70</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>60</td>
+                            <td>30</td>
+                            <td>100</td>
+                        </tr>
+                
+                        <tr>
+                            <td>Mermaid Man</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>70</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>60</td>
+                            <td>30</td>
+                            <td>100</td>
+                        </tr>
+                
+                        <tr>
+                            <td>Mrs Puff</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>70</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>60</td>
+                            <td><input type="number" value="number" placeholder="100"></td>
+                            <td>100</td>
+                        </tr>
+                
+                        <tr>
+                            <td>Spongebob Squarepants</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>100</td>
+                            <td>40</td>
+                            <td>60</td>
+                            <td><input type="number" value="number" placeholder="100"></td>
+                            <td>80</td>
+                            <td>30</td>
+                            <td>100</td>
+                        </tr>
+                        
+                
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+</html>
