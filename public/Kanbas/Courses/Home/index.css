@@ -1,0 +1,79 @@
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+}
+
+.wd-modules > li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-modules > li > div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-modules > li {
+    margin-bottom: 20px;
+}
+
+.fa-check {
+
+    color: green;
+}
+
+.fa-ellipsis-v {
+    color: gray;
+}
+
+.wd-modules a {
+    color: red; /* Default color for links */
+}
+
+
+.leftside {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+    border-right: 1px solid gray !important; 
+    border-bottom: 1px solid gray !important;
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 5px;
+}
+
+.leftside a {
+    color: red; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.leftside a:hover {
+    color: black;
+}
+
+.flex-fill {
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+
+
+
