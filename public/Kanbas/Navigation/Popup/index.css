@@ -1,0 +1,22 @@
+.wd-kanbas-navigation a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .wd-kanbas-navigation li {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .wd-kanbas-navigation .fa {
+    margin-right: 10px; 
+  }
+  
+  .wd-kanbas-navigation .fa {
+    margin-bottom: 20px; 
+  }
+
+  .button-link {
+    display: flex;
+    justify-content: flex-end;
+}

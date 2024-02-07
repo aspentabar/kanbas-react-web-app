@@ -54,7 +54,7 @@
     background-color: lightgray;
     border: 1px solid gray !important;
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 20px; 
     margin: 5px;
 }
 
@@ -74,6 +74,62 @@
     margin-right: 20px; 
 }
 
+
+/*for top bar small */
+.topbar {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar label {
+    text-align: center; 
+    flex-grow: 1;
+}
+
+.topbar .fa.fa-align-justify.fa-2x {
+    color: white;
+}
+
+.topbar .fa.fa-chevron-down.fa-2x {
+    color: white;
+}
+
+
+/* for large top bar */
+.topbar2 {
+    color: red;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+}
+
+
+.topbar2 .fa.fa-align-justify.fa-2x,
+.fa.fa-chevron-down.fa-2x {
+    color: red;
+}
+
+.label1 {
+    color: black;
+    margin-left: 5px;
+}
+
+.label2 {
+    margin-left: 5px;
+}
+
+.studentButton {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
 
 
 

@@ -9,22 +9,36 @@
     <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="/Kanbas/Courses/Home/index.css" />
 
-    <style>
-        /* Custom CSS for added links */
-        .fa.fa-align-justify.fa-3x,
-        .fa.fa-chevron-down.fa-3x {
-            color: red;
-        }
-    </style>
+
 </head>
 
 
 
 
 <body>
-        
-    <a href="/Kanbas/Navigation/index.html"><i class="fa fa-align-justify fa-3x"></i></a>
-    <a href="/Kanbas/Courses/Navigation/index.html"><i class="fa fa fa-chevron-down fa-3x float-end"></i></a> <br>
+
+ 
+    <!-- Top Bar Small -->
+    <div class="d-md-none">
+        <div class="topbar">
+        <a href="/Kanbas/Navigation/Popup/index.html"><i class="fa fa-align-justify fa-2x"></i></a>
+        <label> CS4550.1.WebDev</label>
+        <a href="/Kanbas/Courses/Navigation/Popup/index.html"><i class="fa fa fa-chevron-down fa-2x float-end"></i></a> 
+        <br>
+        </div>
+    </div>
+
+
+    <!-- regular top bar -->
+    <div class="d-none d-md-block">
+        <div class="topbar2">
+        <a href="#"><i class="fa fa-align-justify fa-2x"></i></a>
+        <label class="label2"> CS4550.1.WebDev</label>
+        <label class="label1"> - Modules </label>
+        <button class="studentButton">Student View</button>
+        </div>
+    </div>
+
 
 
     <!--Kanbas Navigaion  -->
@@ -76,7 +90,6 @@
                 
         </ul>
       </div>
-
 
 
 
@@ -143,12 +156,11 @@
               </ul>
 
 
-
-
       </div>
       <div class="flex-fill">
 
                       <!-- Buttons Collapse All, View Progress, etc. -->
+    <br>
     <button> Collapse All</button>
     <button> View Progress</button>
     <select>

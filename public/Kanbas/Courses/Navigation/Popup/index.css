@@ -1,0 +1,31 @@
+  
+  .wd-navigation a {
+    color: red !important;
+    text-decoration: none;
+}
+
+.wd-navigation li a i {
+    color: red !important;
+}
+
+  .wd-navigation li {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .wd-navigation .fa {
+    margin-right: 10px; 
+  }
+  
+  .wd-navigation .fa {
+    margin-bottom: 10px; 
+    color: red;
+  }
+
+  .button-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
