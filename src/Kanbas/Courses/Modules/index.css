@@ -1,0 +1,158 @@
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+}
+
+.wd-modules > li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-modules > li > div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-modules > li {
+    margin-bottom: 20px;
+}
+
+.fa-check {
+
+    color: green;
+}
+
+.fa-ellipsis-v {
+    color: gray;
+}
+
+.wd-modules a {
+    color: red; /* Default color for links */
+}
+
+
+.leftside {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+    border-right: 1px solid gray !important; 
+    border-bottom: 1px solid gray !important;
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    list-style-type: none;
+    padding-left: 20px; 
+    margin: 5px;
+}
+
+.leftside a {
+    color: red; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.leftside a:hover {
+    color: black;
+}
+
+.flex-fill {
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+
+/*for top bar small */
+.topbar {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar label {
+    text-align: center; 
+    flex-grow: 1;
+}
+
+.topbar .fa.fa-align-justify.fa-2x {
+    color: white;
+}
+
+.topbar .fa.fa-chevron-down.fa-2x {
+    color: white;
+}
+
+
+/* for large top bar */
+.topbar2 {
+    color: red;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+}
+
+
+.topbar2 .fa.fa-align-justify.fa-2x,
+.fa.fa-chevron-down.fa-2x {
+    color: red;
+}
+
+.label1 {
+    color: black;
+    margin-left: 5px;
+}
+
+.label2 {
+    margin-left: 5px;
+}
+
+.studentButton {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  }
+  
+  .btn:hover {
+    background-color: lightgray;
+  }
+
+
+
+

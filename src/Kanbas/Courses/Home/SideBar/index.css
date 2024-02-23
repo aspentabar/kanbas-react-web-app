@@ -1,0 +1,52 @@
+/* Course Status */
+.sidebar-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.sidebar-button,
+.sidebar-view-calendar {
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.sidebar-button:hover,
+.sidebar-view-calendar:hover {
+  background-color: lightgray;
+}
+
+.button-container {
+  display: flex;
+  gap: 3px;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  background-color: rgb(232, 232, 232);
+  border: 3px solid black;
+}
+
+.sidebar-list-item {
+  margin-bottom: 5px;
+}
+
+.sidebar-list-item a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.sidebar-heading-upcoming {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
